@@ -1,15 +1,3 @@
-name: "libpng"
-description: "libpng is a PNG image codec."
-third_party {
-  url {
-    type: GIT
-    value: "https://github.com/glennrp/libpng.git"
-  }
-  version: "v1.6.37"
-  license_type: NOTICE
-  last_upgrade_date {
-    year: 2019
-    month: 6
-    day: 10
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d8db0a79aedd2a50491e622bbec702ac2200dec054ee6070e463e8983a062bf
+size 262

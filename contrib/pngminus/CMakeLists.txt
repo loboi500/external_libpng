@@ -1,24 +1,3 @@
-cmake_minimum_required(VERSION 3.1)
-cmake_policy(VERSION 3.1)
-
-project(PNGMINUS C)
-
-option(PNGMINUS_USE_STATIC_LIBRARIES "Use the static library builds" ON)
-
-# libpng
-add_subdirectory(../.. libpng)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../..)
-include_directories(${CMAKE_CURRENT_BINARY_DIR}/libpng)
-if(PNGMINUS_USE_STATIC_LIBRARIES)
-  set(PNGMINUS_PNG_LIBRARY png_static)
-else()
-  set(PNGMINUS_PNG_LIBRARY png)
-endif()
-
-# png2pnm
-add_executable(png2pnm png2pnm.c)
-target_link_libraries(png2pnm ${PNGMINUS_PNG_LIBRARY})
-
-# pnm2png
-add_executable(pnm2png pnm2png.c)
-target_link_libraries(pnm2png ${PNGMINUS_PNG_LIBRARY})
+version https://git-lfs.github.com/spec/v1
+oid sha256:f30e92cac4053c3435e2b4a87d07ef69f00dc137d9003681dba533a38cb6253f
+size 629

@@ -1,4 +1,3 @@
-#define PNG_USER_PRIVATEBUILD "Skia build; no MNG features"
-#define PNG_USER_DLLFNAME_POSTFIX "Sk"
-#define PNG_NO_MNG_FEATURES
-#define PNG_NO_READ_GAMMA
+version https://git-lfs.github.com/spec/v1
+oid sha256:6eb761d409de722dc911a31124f0c62766bff8e1d4c6acb2cb5c34902f9330c6
+size 153

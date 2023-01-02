@@ -1,10 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@/libpng16
-
-Name: libpng
-Description: Loads and saves PNG files
-Version: 1.6.37
-Libs: -L${libdir} -lpng16
-Cflags: -I${includedir}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e05054856c0f19a1ac791fc70d3e2171d69bc81fddb89aa4a990eb3808d0ec8
+size 210

@@ -1,7 +1,3 @@
-{
-  "presubmit": [
-    {
-      "name": "CtsGraphicsTestCases"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c2dcad6b8e5e8438abfb8fb31cb13410517ecc623d7a569ab78f56dae47467f
+size 74
